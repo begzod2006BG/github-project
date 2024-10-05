@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      body {
+        background-color: #2fc5c5;
+      }
+      form {
+        padding: 20px;
+        margin: 0 auto;
+        width: 30%;
+        background-color: white;
+        border: 4px solid hsl(180, 100%, 50%);
+      }
+      button {
+        width: 100%;
+        background-color: #0d0c52;
+        color: white;
+      }
+
+      h1 {
+        text-align: center;
+        color: #0d0c52;
+      }
+      .a {
+        border: 1px solid hwb(330 27% 70%);
+        width: 100%;
+      }
+    </style>
+  </head>
+  <body>
+    <form action="">
+      <h1>Softwre request</h1>
+      <label for="Name">Name</label>
+      <br />
+      <input class="a" required id="Name" type="text" />
+      <br />
+      <br />
+      <label for="Employee ID">Employee ID</label>
+      <br />
+      <input class="a" required id="Employee ID" type="text" />
+      <br />
+      <br />
+      <label for="Email">Email</label>
+      <br />
+      <input class="a" required id="Email" type="text" />
+      <br />
+      <br />
+      <label for="Mobile no/extn.no">Mobile no/extn.no</label>
+      <br />
+      <input class="a" required id="Mobile no/extn.no" type="text" />
+      <br />
+      <br />
+      <p>Which software do you require?</p>
+      <input required id="Software A" type="checkbox" />
+      <label for="Software A">Software A</label>
+      <br />
+      <input required id="Software B" type="checkbox" />
+      <label for="Software B">Software B</label>
+      <br />
+      <input required id="Software C" type="checkbox" />
+      <label for="Software C">Software C</label>
+      <br />
+      <br />
+      <p>How urgently do you need it?</p>
+      <input required id="As soon as possible" type="radio" name="savol" />
+      <label for="As soon as possible">As soon as possible</label>
+      <br />
+      <input required id="Within in 2 tp 3 weels" type="radio" name="savol" />
+      <label for="Within in 2 tp 3 weels">Within in 2 tp 3 weels</label>
+      <br />
+      <input required id="I'm in no hurry" type="radio" name="savol" />
+      <label for="I'm in no hurry">I'm in no hurry</label>
+      <br />
+      <button>Request</button>
+    </form>
+  </body>
+</html>
